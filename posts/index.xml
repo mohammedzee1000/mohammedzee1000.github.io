@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Mohammed Zeeshan Ahmed&#39;s Blog</title>
+    <link>http://dream-plus.netlify.com/posts/</link>
+    <description>Recent content in Posts on Mohammed Zeeshan Ahmed&#39;s Blog</description>
+    <meta name="generator" content="Hugo 0.48" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Sep 2018 13:35:34 +0530</lastBuildDate>
+    
+        <atom:link href="http://dream-plus.netlify.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First - Move to hugo</title>
+      <link>http://dream-plus.netlify.com/posts/first/</link>
+      <pubDate>Tue, 25 Sep 2018 13:35:34 +0530</pubDate>
+      
+      <guid>http://dream-plus.netlify.com/posts/first/</guid>
+      <description>This is my first blog on new setup</description>
+    </item>
+    
+  </channel>
+</rss>
