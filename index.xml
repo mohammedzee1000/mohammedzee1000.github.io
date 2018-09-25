@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mohammed Zeeshan Ahmed&#39;s Blog</title>
-    <link>http://dream-plus.netlify.com/</link>
+    <link>http://mzee1000.io/</link>
     <description>Recent content on Mohammed Zeeshan Ahmed&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Jan 2018 00:34:29 +0530</lastBuildDate>
     
-	<atom:link href="http://dream-plus.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mzee1000.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>http://dream-plus.netlify.com/cards/blog/</link>
+      <link>http://mzee1000.io/cards/blog/</link>
       <pubDate>Wed, 31 Jan 2018 00:34:29 +0530</pubDate>
       
-      <guid>http://dream-plus.netlify.com/cards/blog/</guid>
+      <guid>http://mzee1000.io/cards/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Instructables</title>
-      <link>http://dream-plus.netlify.com/cards/instructables/</link>
+      <link>http://mzee1000.io/cards/instructables/</link>
       <pubDate>Tue, 30 Jan 2018 23:26:40 +0530</pubDate>
       
-      <guid>http://dream-plus.netlify.com/cards/instructables/</guid>
+      <guid>http://mzee1000.io/cards/instructables/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hackster</title>
-      <link>http://dream-plus.netlify.com/cards/hackster/</link>
+      <link>http://mzee1000.io/cards/hackster/</link>
       <pubDate>Tue, 30 Jan 2018 00:26:04 +0530</pubDate>
       
-      <guid>http://dream-plus.netlify.com/cards/hackster/</guid>
+      <guid>http://mzee1000.io/cards/hackster/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Patreon</title>
-      <link>http://dream-plus.netlify.com/cards/patreon/</link>
+      <link>http://mzee1000.io/cards/patreon/</link>
       <pubDate>Tue, 30 Jan 2018 23:22:08 +0530</pubDate>
       
-      <guid>http://dream-plus.netlify.com/cards/patreon/</guid>
+      <guid>http://mzee1000.io/cards/patreon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The ProtoElectric Effect</title>
-      <link>http://dream-plus.netlify.com/cards/protoelectric/</link>
+      <link>http://mzee1000.io/cards/protoelectric/</link>
       <pubDate>Tue, 30 Jan 2018 23:22:08 +0530</pubDate>
       
-      <guid>http://dream-plus.netlify.com/cards/protoelectric/</guid>
+      <guid>http://mzee1000.io/cards/protoelectric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Keybase</title>
-      <link>http://dream-plus.netlify.com/cards/keybase/</link>
+      <link>http://mzee1000.io/cards/keybase/</link>
       <pubDate>Tue, 30 Jan 2018 23:21:51 +0530</pubDate>
       
-      <guid>http://dream-plus.netlify.com/cards/keybase/</guid>
+      <guid>http://mzee1000.io/cards/keybase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>My Goodwall Profile</title>
-      <link>http://dream-plus.netlify.com/cards/goodwall/</link>
+      <link>http://mzee1000.io/cards/goodwall/</link>
       <pubDate>Sun, 08 Apr 2018 21:49:02 +0530</pubDate>
       
-      <guid>http://dream-plus.netlify.com/cards/goodwall/</guid>
+      <guid>http://mzee1000.io/cards/goodwall/</guid>
       <description></description>
     </item>
     
     <item>
       <title>First - Move to hugo</title>
-      <link>http://dream-plus.netlify.com/posts/first/</link>
+      <link>http://mzee1000.io/posts/first/</link>
       <pubDate>Tue, 25 Sep 2018 13:35:34 +0530</pubDate>
       
-      <guid>http://dream-plus.netlify.com/posts/first/</guid>
+      <guid>http://mzee1000.io/posts/first/</guid>
       <description>Hi,
 I have been using wordpress as my blogging platfom for some time now.
 While its an ageing platform, it served a very awesome purpose. Now, however, its time to move into something newer, that allows me greater freedom, to be awesome + github yay !!
@@ -88,19 +88,19 @@ For now, until i can figure out the moving part, I am keeping older blogs back t
     
     <item>
       <title></title>
-      <link>http://dream-plus.netlify.com/404/</link>
+      <link>http://mzee1000.io/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://dream-plus.netlify.com/404/</guid>
+      <guid>http://mzee1000.io/404/</guid>
       <description> Error 404: Page Not Found It seems that the page that you&amp;rsquo;re trying to access doesn&amp;rsquo;t exist. 😟 If you&amp;rsquo;re sure that it exists, chances are it might have been moved to a new link! You may search for it on the home page. </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://dream-plus.netlify.com/about/</link>
+      <link>http://mzee1000.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://dream-plus.netlify.com/about/</guid>
+      <guid>http://mzee1000.io/about/</guid>
       <description>So, Who Am I? 
 Hi, I am Mohammed Zeeshan Ahmed and I am a technologist, engineer, linux lover and free and open source software enthusiast.
 I fell in love with linux at a very young age (when I was in 4th standard actually when I wrote my first Hello world program in C on a Unix based computer. I transitioned Unix –&amp;gt; Linux soon after though exactly how soon, my memory fails me), though I got introduced to technology much earlier though 8-bit gaming consoles and my first Pentium 3 based computer running Windows 95.</description>

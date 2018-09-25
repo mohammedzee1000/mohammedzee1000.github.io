@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogging on Mohammed Zeeshan Ahmed&#39;s Blog</title>
-    <link>http://dream-plus.netlify.com/categories/blogging/</link>
+    <link>http://mzee1000.io/categories/blogging/</link>
     <description>Recent content in Blogging on Mohammed Zeeshan Ahmed&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Sep 2018 13:35:34 +0530</lastBuildDate>
     
-	<atom:link href="http://dream-plus.netlify.com/categories/blogging/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mzee1000.io/categories/blogging/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First - Move to hugo</title>
-      <link>http://dream-plus.netlify.com/posts/first/</link>
+      <link>http://mzee1000.io/posts/first/</link>
       <pubDate>Tue, 25 Sep 2018 13:35:34 +0530</pubDate>
       
-      <guid>http://dream-plus.netlify.com/posts/first/</guid>
+      <guid>http://mzee1000.io/posts/first/</guid>
       <description>Hi,
 I have been using wordpress as my blogging platfom for some time now.
 While its an ageing platform, it served a very awesome purpose. Now, however, its time to move into something newer, that allows me greater freedom, to be awesome + github yay !!
