@@ -4,7 +4,8 @@
 	<title>Mohammed Zeeshan Ahmed&#39;s Blog</title><style>
 body {
 	display: block;
-	--colorBG: "#40e0d0, #ff8c00, #ff0080";background: linear-gradient(to right, var(--colorBG)) !important;
+	--colorBG: "#40e0d0, #ff8c00, #ff0080";
+		background-image: var(--bgImage) !important;
 	
 }
 
@@ -27,13 +28,14 @@ body, body.pushable {
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
 <style>
 body.pushable {
-	display: block;background: linear-gradient(to right, var(--colorBG)) !important;
+	display: block;
+		background-image: var(--bgImage) !important;
 	 ;
 }
 </style>
 <link rel="stylesheet" type="text/css" href="/css/site.css"><link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/UtkarshVerma/hugo-dream-plus/ae11561d/exampleSite/static/css/highlight.css">
 <script>
-	var colorBG =  true 
+	var colorBG =  false 
 	var enabledPost =  false 
 	var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
 	console.log("The client device is a "+(isMobile?"mobile":"PC")+".")
@@ -41,18 +43,13 @@ body.pushable {
 </head>
 <body><script>
 var prevBgIndex = 0;
-var bodyBgSwitchIndex = 0;var gradients = [
-	  [],
-	  ['#40e0d0', '#ff8c00', '#ff0080'], 
-	  ['#3e5151', '#decba4'], 
-	  ['#11998e', '#38ef7d'], 
-	  ['#108dc7', '#ef8e38'], 
-	  ['#fc5c7d', '#6a82fb'], 
-	  ['#fc466b', '#3f5efb'], 
-	  ['#c94b4b', '#4b134f'], 
-	  ['#23074d', '#cc5333'] 
-	]
-	document.body.style.setProperty('--colorBG', connect(gradients[getRandomInt(0, gradients.length)]))
+var bodyBgSwitchIndex = 0;
+		var bgImage = "url(" + "https://i.imgur.com/UyzdNMD.png" + ")"
+	
+	console.log("Current background: " + bgImage.substring(bgImage.indexOf("bg"), bgImage.length));
+	document.body.style.setProperty('--blurEff', true );
+	document.body.style.setProperty('--bgImage', bgImage);
+
 	function getRandomInt(min, max) {
 	  min = Math.ceil(min)
 	  max = Math.floor(max)
@@ -78,7 +75,7 @@ var bodyBgSwitchIndex = 0;var gradients = [
 	  }
 	  return str
 	}
-</script><div id="sidebar" class="ui sidebar inverted vertical menu">
+</script><div class="blur-overlay"></div><div id="sidebar" class="ui sidebar inverted vertical menu">
 	<section id="author" class="ui top attached center aligned inverted segment"><div class="ui small circular image">
 		<img src="https://github.com/mohammedzee1000.png">
 </div>
@@ -87,11 +84,11 @@ var bodyBgSwitchIndex = 0;var gradients = [
 </h3>
 </section><section class="ui attached center aligned inverted segment sidebar-dream-tags">
 
-	<a class="ui label teal " href="/tags/code" title="code">code</a>
+	<a class="ui label blue " href="/tags/code" title="code">code</a>
 
-	<a class="ui label brown " href="/tags/experience" title="experience">experience</a>
+	<a class="ui label violet " href="/tags/experience" title="experience">experience</a>
 
-	<a class="ui label olive " href="/tags/go" title="go">go</a>
+	<a class="ui label orange " href="/tags/go" title="go">go</a>
 
 </section>
 	<section class="ui attached inverted segment sidebar-dream-categories both flexbox">
@@ -180,11 +177,11 @@ var bodyBgSwitchIndex = 0;var gradients = [
 			</div></div>
 		<div id="tag-category" class="active content"><section class="ui attached center aligned inverted segment dream-tags none flexbox">
 
-	<a class="ui label orange " href="/tags/code" title="code">code</a>
+	<a class="ui label olive " href="/tags/code" title="code">code</a>
 
-	<a class="ui label green " href="/tags/experience" title="experience">experience</a>
+	<a class="ui label violet " href="/tags/experience" title="experience">experience</a>
 
-	<a class="ui label teal " href="/tags/go" title="go">go</a>
+	<a class="ui label blue " href="/tags/go" title="go">go</a>
 
 </section><section class="ui attached inverted segment dream-categories both flexbox">
 				<div class="inverted accordion">
@@ -221,8 +218,8 @@ var bodyBgSwitchIndex = 0;var gradients = [
 			
 				
 
-<article class="blog-card none flexbox" style="background-image: url(/img/default6.jpg)">
-<img class="image" src="/img/default6.jpg"></img>
+<article class="blog-card none flexbox" style="background-image: url(/img/default3.jpg)">
+<img class="image" src="/img/default3.jpg"></img>
 <div class="title-content twemoji">
 	<h3><a class="title" href=http://mzee1000.io/posts/first/>First - Move to hugo</a></h3>
 	<div class="intro twemoji">This is my first blog on new setup</div>
