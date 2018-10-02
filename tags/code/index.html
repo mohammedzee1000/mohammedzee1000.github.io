@@ -47,37 +47,38 @@ body.pushable {
 </head>
 <body><script>
 var prevBgIndex = 0;
-var bodyBgSwitchIndex = 0;
-		var bgImage = "url(" + "https://i.imgur.com/UyzdNMD.png" + ")"
+var bodyBgSwitchIndex = 0;var images =["https://i.imgur.com/eUbCxlN.jpg","https://i.imgur.com/UyzdNMD.png"];
+		var randomNumber = getRandomInt(0, images.length);
+		bgImage = "url(" + images[randomNumber] + ")";
 	
 	console.log("Current background: " + bgImage.substring(bgImage.indexOf("bg"), bgImage.length));
 	document.body.style.setProperty('--blurEff', true );
 	document.body.style.setProperty('--bgImage', bgImage);
 
 	function getRandomInt(min, max) {
-	  min = Math.ceil(min)
-	  max = Math.floor(max)
-	  var random
+	  min = Math.ceil(min);
+	  max = Math.floor(max);
+	  var random;
 	  while (1) {
-	    random = Math.floor(Math.random() * (max - min)) + min
+	    random = Math.floor(Math.random() * (max - min)) + min;
 	    if (random !== prevBgIndex) {
-	      prevBgIndex = random
-	      break
+	      prevBgIndex = random;
+	      break;
 	    }
 	  }
-	  return random
+	  return random;
 	}
 
 	function connect(arr) {
-	  var str = ''
+	  var str = '';
 	  for (var i = 0; i < arr.length; i++) {
 	    if (i !== arr.length - 1) {
-	      str += arr[i] + ', '
+	      str += arr[i] + ', ';
 	    } else {
-	      str += arr[i]
+	      str += arr[i];
 	    }
 	  }
-	  return str
+	  return str;
 	}
 </script><div class="blur-overlay"></div><div id="sidebar" class="ui sidebar inverted vertical menu">
 	<section id="author" class="ui top attached center aligned inverted segment"><div class="ui small circular image">
@@ -88,11 +89,11 @@ var bodyBgSwitchIndex = 0;
 </h3>
 </section><section class="ui attached center aligned inverted segment sidebar-dream-tags">
 
-	<a class="ui label pink " href="/tags/code" title="code">code</a>
+	<a class="ui label teal " href="/tags/code" title="code">code</a>
 
-	<a class="ui label pink " href="/tags/experience" title="experience">experience</a>
+	<a class="ui label purple " href="/tags/experience" title="experience">experience</a>
 
-	<a class="ui label red " href="/tags/go" title="go">go</a>
+	<a class="ui label brown " href="/tags/go" title="go">go</a>
 
 </section>
 	<section class="ui attached inverted segment sidebar-dream-categories both flexbox">
@@ -186,11 +187,11 @@ var bodyBgSwitchIndex = 0;
 			</div></div>
 		<div id="tag-category" class="active content"><section class="ui attached center aligned inverted segment dream-tags none flexbox">
 
-	<a class="ui label green " href="/tags/code" title="code">code</a>
+	<a class="ui label orange " href="/tags/code" title="code">code</a>
 
-	<a class="ui label blue " href="/tags/experience" title="experience">experience</a>
+	<a class="ui label pink " href="/tags/experience" title="experience">experience</a>
 
-	<a class="ui label yellow " href="/tags/go" title="go">go</a>
+	<a class="ui label red " href="/tags/go" title="go">go</a>
 
 </section><section class="ui attached inverted segment dream-categories both flexbox">
 				<div class="inverted accordion">
@@ -227,8 +228,8 @@ var bodyBgSwitchIndex = 0;
 			
 				
 
-<article class="blog-card none flexbox" style="background-image: url(/img/default5.jpg)">
-<img class="image" src="/img/default5.jpg"></img>
+<article class="blog-card none flexbox" style="background-image: url(/img/default2.jpg)">
+<img class="image" src="/img/default2.jpg"></img>
 <div class="title-content twemoji">
 	<h3><a class="title" href=http://mzee1000.io/posts/first/>First - Move to hugo</a></h3>
 	<div class="intro twemoji">This is my first blog on new setup</div>
