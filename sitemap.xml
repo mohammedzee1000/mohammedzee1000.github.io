@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>http://mzee1000.io/posts/10-02-2018_kubernetes_community/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mzee1000.io/posts/first/</loc>
     <lastmod>2018-09-25T13:35:34+05:30</lastmod>
   </url>
@@ -52,7 +57,7 @@
   
   <url>
     <loc>http://mzee1000.io/categories/blogging/</loc>
-    <lastmod>2018-09-25T13:35:34+05:30</lastmod>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,25 +69,55 @@
   
   <url>
     <loc>http://mzee1000.io/categories/</loc>
-    <lastmod>2018-09-25T13:35:34+05:30</lastmod>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/tags/ci-cd/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://mzee1000.io/tags/code/</loc>
-    <lastmod>2018-09-25T13:35:34+05:30</lastmod>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/categories/containers/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/categories/engineering/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://mzee1000.io/tags/experience/</loc>
-    <lastmod>2018-09-25T13:35:34+05:30</lastmod>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://mzee1000.io/tags/go/</loc>
-    <lastmod>2018-09-25T13:35:34+05:30</lastmod>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/tags/kubernetes/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/tags/learning/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -93,14 +128,20 @@
   </url>
   
   <url>
+    <loc>http://mzee1000.io/categories/opensource/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://mzee1000.io/posts/</loc>
-    <lastmod>2018-09-25T13:35:34+05:30</lastmod>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://mzee1000.io/tags/</loc>
-    <lastmod>2018-09-25T13:35:34+05:30</lastmod>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
     <priority>0</priority>
   </url>
   

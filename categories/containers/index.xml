@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Experience on Mohammed Zeeshan Ahmed&#39;s Blog</title>
-    <link>http://mzee1000.io/tags/experience/</link>
-    <description>Recent content in Experience on Mohammed Zeeshan Ahmed&#39;s Blog</description>
+    <title>Containers on Mohammed Zeeshan Ahmed&#39;s Blog</title>
+    <link>http://mzee1000.io/categories/containers/</link>
+    <description>Recent content in Containers on Mohammed Zeeshan Ahmed&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Oct 2018 20:21:10 +0530</lastBuildDate>
     
-	<atom:link href="http://mzee1000.io/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mzee1000.io/categories/containers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,18 +20,6 @@
       <description>I still cannot believe it. It was slightly more than 6 months ago, that i started contributing to Kubernetes.
 I had joined Red Hat, approximately 2 and half years ago, working on container technologies, mostly with tools to help developers get an easy path into the world of containers, and of Kubernetes.
 While i got a lot of experience with Kubernetes, via OpenShift, i never really got an opportunity to contribute to the project itself, except for a stray issue or two.</description>
-    </item>
-    
-    <item>
-      <title>First - Move to hugo</title>
-      <link>http://mzee1000.io/posts/first/</link>
-      <pubDate>Tue, 25 Sep 2018 13:35:34 +0530</pubDate>
-      
-      <guid>http://mzee1000.io/posts/first/</guid>
-      <description>Hi,
-I have been using wordpress as my blogging platfom for some time now.
-While its an ageing platform, it served a very awesome purpose. Now, however, its time to move into something newer, that allows me greater freedom, to be awesome + github yay !!
-For now, until i can figure out the moving part, I am keeping older blogs back there. You can read them on my old blog.</description>
     </item>
     
   </channel>

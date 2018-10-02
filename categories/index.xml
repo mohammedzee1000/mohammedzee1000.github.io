@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Mohammed Zeeshan Ahmed&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Sep 2018 13:35:34 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 02 Oct 2018 20:21:10 +0530</lastBuildDate>
     
 	<atom:link href="http://mzee1000.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>Blogging</title>
       <link>http://mzee1000.io/categories/blogging/</link>
-      <pubDate>Tue, 25 Sep 2018 13:35:34 +0530</pubDate>
+      <pubDate>Tue, 02 Oct 2018 20:21:10 +0530</pubDate>
       
       <guid>http://mzee1000.io/categories/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Containers</title>
+      <link>http://mzee1000.io/categories/containers/</link>
+      <pubDate>Tue, 02 Oct 2018 20:21:10 +0530</pubDate>
+      
+      <guid>http://mzee1000.io/categories/containers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Engineering</title>
+      <link>http://mzee1000.io/categories/engineering/</link>
+      <pubDate>Tue, 02 Oct 2018 20:21:10 +0530</pubDate>
+      
+      <guid>http://mzee1000.io/categories/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>http://mzee1000.io/categories/opensource/</link>
+      <pubDate>Tue, 02 Oct 2018 20:21:10 +0530</pubDate>
+      
+      <guid>http://mzee1000.io/categories/opensource/</guid>
       <description></description>
     </item>
     
