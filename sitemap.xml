@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://mzee1000.io/cards/blog/</loc>
+    <lastmod>2018-01-31T00:34:29+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/cards/instructables/</loc>
+    <lastmod>2018-01-31T00:26:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/cards/hackster/</loc>
+    <lastmod>2018-01-30T00:26:04+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/cards/patreon/</loc>
+    <lastmod>2018-01-30T23:22:08+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/cards/protoelectric/</loc>
+    <lastmod>2018-01-30T23:22:08+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/cards/keybase/</loc>
+    <lastmod>2018-01-30T23:21:51+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/cards/goodwall/</loc>
+    <lastmod>2018-04-08T21:49:02+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/posts/10-02-2018_kubernetes_community/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/posts/first/</loc>
+    <lastmod>2018-09-25T13:35:34+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/404/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/categories/blogging/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/cards/</loc>
+    <lastmod>2018-01-31T00:34:29+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/categories/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/tags/ci-cd/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/tags/code/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/categories/containers/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/categories/engineering/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/tags/experience/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/tags/go/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/tags/kubernetes/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/tags/learning/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/</loc>
+    <lastmod>2018-01-31T00:34:29+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/categories/opensource/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/posts/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/tags/</loc>
+    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

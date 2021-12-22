@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>
+	
+		Tag | go
+	
+</title><style>
+body {
+	display: block;
+	--colorBG: "#40e0d0, #ff8c00, #ff0080";
+		background-image: var(--bgImage) !important;
+	
+}
+
+body, body.pushable {
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover !important;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="Mohammed Zeeshan Ahmed" />
+	<meta name="description" content="Just a random blog for random stuff, mostly tech-related. Opinions expressed are mine." />
+<meta name="generator" content="Hugo 0.48" />
+
+<link rel="shortcut icon" href="/img/defaultFav.ico">
+
+<link rel="alternate" type="application/rss+xml" href="http://mzee1000.io/tags/go/index.xml" title="Mohammed Zeeshan Ahmed's Blog" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+<style>
+body.pushable {
+	display: block;
+		background-image: var(--bgImage) !important;
+	 ;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="/css/site.css"><link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/UtkarshVerma/hugo-dream-plus/ae11561d/exampleSite/static/css/highlight.css">
+<script>
+	var colorBG =  false 
+	var enabledPost =  false 
+	var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
+	console.log("The client device is a "+(isMobile?"mobile":"PC")+".")
+</script>
+</head>
+<body><script>
+var prevBgIndex = 0;
+var bodyBgSwitchIndex = 0;var images =["https://i.imgur.com/eUbCxlN.jpg","https://i.imgur.com/UyzdNMD.png"];
+		var randomNumber = getRandomInt(0, images.length);
+		bgImage = "url(" + images[randomNumber] + ")";
+	
+	console.log("Current background: " + bgImage.substring(bgImage.indexOf("bg"), bgImage.length));
+	document.body.style.setProperty('--blurEff', true );
+	document.body.style.setProperty('--bgImage', bgImage);
+
+	function getRandomInt(min, max) {
+	  min = Math.ceil(min);
+	  max = Math.floor(max);
+	  var random;
+	  while (1) {
+	    random = Math.floor(Math.random() * (max - min)) + min;
+	    if (random !== prevBgIndex) {
+	      prevBgIndex = random;
+	      break;
+	    }
+	  }
+	  return random;
+	}
+
+	function connect(arr) {
+	  var str = '';
+	  for (var i = 0; i < arr.length; i++) {
+	    if (i !== arr.length - 1) {
+	      str += arr[i] + ', ';
+	    } else {
+	      str += arr[i];
+	    }
+	  }
+	  return str;
+	}
+</script><div class="blur-overlay"></div><div id="sidebar" class="ui sidebar inverted vertical menu">
+	<section id="author" class="ui top attached center aligned inverted segment"><div class="ui small circular image">
+		<img src="https://github.com/mohammedzee1000.png">
+</div>
+<h3 class="ui header">Mohammed Zeeshan Ahmed
+	<div class="sub header">A keen maker, programmer, engineer, sysadmin and FOSS enthusiast.</div>
+</h3>
+</section><section class="ui attached center aligned inverted segment sidebar-dream-tags">
+
+	<a class="ui label pink " href="/tags/ci/cd" title="ci/cd">ci/cd</a>
+
+	<a class="ui label olive " href="/tags/code" title="code">code</a>
+
+	<a class="ui label brown " href="/tags/experience" title="experience">experience</a>
+
+	<a class="ui label teal " href="/tags/go" title="go">go</a>
+
+	<a class="ui label violet " href="/tags/kubernetes" title="kubernetes">kubernetes</a>
+
+	<a class="ui label yellow " href="/tags/learning" title="learning">learning</a>
+
+</section>
+	<section class="ui attached inverted segment sidebar-dream-categories both flexbox">
+		<div class="ui inverted accordion">
+<div class="title">
+	<i class="dropdown icon"></i>
+	<a class="link" href="/categories/blogging">blogging</a>
+</div>
+<div class="content">
+
+	<a class="item" href="http://mzee1000.io/posts/10-02-2018_kubernetes_community/">
+		<div>
+			<i class="cocktail icon"></i>
+			<p>Kontributing to Kubernetes - The Six Month Checkpoint</p>
+		</div>
+	</a>
+
+	<a class="item" href="http://mzee1000.io/posts/first/">
+		<div>
+			<i class="cocktail icon"></i>
+			<p>First - Move to hugo</p>
+		</div>
+	</a>
+
+</div>
+
+<div class="title">
+	<i class="dropdown icon"></i>
+	<a class="link" href="/categories/containers">containers</a>
+</div>
+<div class="content">
+
+	<a class="item" href="http://mzee1000.io/posts/10-02-2018_kubernetes_community/">
+		<div>
+			<i class="cocktail icon"></i>
+			<p>Kontributing to Kubernetes - The Six Month Checkpoint</p>
+		</div>
+	</a>
+
+</div>
+
+<div class="title">
+	<i class="dropdown icon"></i>
+	<a class="link" href="/categories/engineering">engineering</a>
+</div>
+<div class="content">
+
+	<a class="item" href="http://mzee1000.io/posts/10-02-2018_kubernetes_community/">
+		<div>
+			<i class="cocktail icon"></i>
+			<p>Kontributing to Kubernetes - The Six Month Checkpoint</p>
+		</div>
+	</a>
+
+</div>
+
+<div class="title">
+	<i class="dropdown icon"></i>
+	<a class="link" href="/categories/opensource">opensource</a>
+</div>
+<div class="content">
+
+	<a class="item" href="http://mzee1000.io/posts/10-02-2018_kubernetes_community/">
+		<div>
+			<i class="cocktail icon"></i>
+			<p>Kontributing to Kubernetes - The Six Month Checkpoint</p>
+		</div>
+	</a>
+
+</div>
+
+</div>
+	</section>
+	
+	<section id="footer" class="ui bottom attached center aligned inverted segment">
+	<p>© 2018 Mohammed Zeeshan Ahmed&#39;s Blog</p>
+
+<p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with <a href="https://github.com/UtkarshVerma/hugo-dream-plus" target="_blank">Dream Plus</a> theme.</p>
+</section>
+</div>
+<div class="pusher">
+		<div class="flipper">
+			<div class="front">
+	
+	<nav class="ui top secondary menu bar">
+	<div class="item">
+		<i class="inverted big link bullseye icon dream-flip-toggle" title="About Me"></i>
+	</div>
+<div class="item">
+			<a href="/">
+				<i class="inverted big link home icon" title="Home"></i>
+			</a>
+		</div>
+	<div class="item">
+			<a href="/posts">
+				<i class="inverted big link archive icon" title="Archive"></i>
+			</a>
+		</div>
+	
+	<div class="item">
+			<a href="/tags">
+				<i class="inverted big link tags icon" title="All Tags"></i>
+			</a>
+		</div>
+	<div class="item">
+			<a href="/categories">
+				<i class="inverted big link cubes icon" title="All Categories"></i>
+			</a>
+    	</div>
+	
+	
+		
+			<div class="item">
+			
+  			</div>
+			<div class="item">
+		</div>
+	
+
+	
+	<div class="item right">
+		<a href="/posts/index.xml">
+			<i class="inverted big link rss icon" title="RSS Feed"></i>
+		</a>
+	</div>
+	
+</nav>
+
+
+<div class="ui centered grid">
+	<div class="fifteen wide mobile fifteen wide tablet four wide computer column">
+		<div class="ui inverted accordion">
+	<div id="header" class="ui inverted segment column box">
+		<header id="author" class="ui top attached center aligned inverted segment"><div class="ui small circular image">
+		<img src="https://github.com/mohammedzee1000.png">
+</div>
+<h3 class="ui header">Mohammed Zeeshan Ahmed
+	<div class="sub header">A keen maker, programmer, engineer, sysadmin and FOSS enthusiast.</div>
+</h3>
+</header>
+		<div class="active title header-title"><div id="tag-category-pop" class="ui red right corner label">
+				<i class="hand point icon up"title="Click this to pop tags and categories"></i>
+			</div></div>
+		<div id="tag-category" class="active content"><section class="ui attached center aligned inverted segment dream-tags none flexbox">
+
+	<a class="ui label olive " href="/tags/ci/cd" title="ci/cd">ci/cd</a>
+
+	<a class="ui label pink " href="/tags/code" title="code">code</a>
+
+	<a class="ui label orange " href="/tags/experience" title="experience">experience</a>
+
+	<a class="ui label purple " href="/tags/go" title="go">go</a>
+
+	<a class="ui label violet " href="/tags/kubernetes" title="kubernetes">kubernetes</a>
+
+	<a class="ui label violet " href="/tags/learning" title="learning">learning</a>
+
+</section><section class="ui attached inverted segment dream-categories both flexbox">
+				<div class="inverted accordion">
+<div class="title">
+	<i class="dropdown icon"></i>
+	<a class="link" href="/categories/blogging">blogging</a>
+</div>
+<div class="content">
+
+	<a class="item" href="http://mzee1000.io/posts/10-02-2018_kubernetes_community/">
+		<div>
+			<i class="cocktail icon"></i>
+			<p>Kontributing to Kubernetes - The Six Month Checkpoint</p>
+		</div>
+	</a>
+
+	<a class="item" href="http://mzee1000.io/posts/first/">
+		<div>
+			<i class="cocktail icon"></i>
+			<p>First - Move to hugo</p>
+		</div>
+	</a>
+
+</div>
+
+<div class="title">
+	<i class="dropdown icon"></i>
+	<a class="link" href="/categories/containers">containers</a>
+</div>
+<div class="content">
+
+	<a class="item" href="http://mzee1000.io/posts/10-02-2018_kubernetes_community/">
+		<div>
+			<i class="cocktail icon"></i>
+			<p>Kontributing to Kubernetes - The Six Month Checkpoint</p>
+		</div>
+	</a>
+
+</div>
+
+<div class="title">
+	<i class="dropdown icon"></i>
+	<a class="link" href="/categories/engineering">engineering</a>
+</div>
+<div class="content">
+
+	<a class="item" href="http://mzee1000.io/posts/10-02-2018_kubernetes_community/">
+		<div>
+			<i class="cocktail icon"></i>
+			<p>Kontributing to Kubernetes - The Six Month Checkpoint</p>
+		</div>
+	</a>
+
+</div>
+
+<div class="title">
+	<i class="dropdown icon"></i>
+	<a class="link" href="/categories/opensource">opensource</a>
+</div>
+<div class="content">
+
+	<a class="item" href="http://mzee1000.io/posts/10-02-2018_kubernetes_community/">
+		<div>
+			<i class="cocktail icon"></i>
+			<p>Kontributing to Kubernetes - The Six Month Checkpoint</p>
+		</div>
+	</a>
+
+</div>
+
+</div>
+			</section></div>
+		<footer class="ui bottom attached center aligned inverted segment">
+	<p>© 2018 Mohammed Zeeshan Ahmed&#39;s Blog</p>
+
+<p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with <a href="https://github.com/UtkarshVerma/hugo-dream-plus" target="_blank">Dream Plus</a> theme.</p>
+</footer>
+	</div>
+</div>
+
+	</div>
+	<div class="fifteen wide mobile fifteen wide tablet eleven wide computer column post-list">
+		<div class="cards row box">
+			
+			
+			
+				
+
+<article class="blog-card none flexbox" style="background-image: url(/img/default6.jpg)">
+<img class="image" src="/img/default6.jpg"></img>
+<div class="title-content twemoji">
+	<h3><a class="title" href=http://mzee1000.io/posts/10-02-2018_kubernetes_community/>Kontributing to Kubernetes - The Six Month Checkpoint</a></h3>
+	<div class="intro twemoji">My experiences so far, with this amazing community.</div>
+</div>
+<div class="utility-info">
+	<ul class="utility-list">
+		
+			<div><i class="comment icon"></i><span class="disqus-comment-count" data-disqus-identifier="14296a130b428d90a758a0b3bd8e987d"></span></div>
+		
+		<div><span><i class="calendar icon"></i>Oct 2, 2018</span></div>
+		<div><span><i class="clock icon"></i>4 min read</span></div>
+	</ul>
+</div>
+<div class="color-overlay"></div>
+</article>
+
+			
+				
+
+<article class="blog-card none flexbox" style="background-image: url(/img/default3.jpg)">
+<img class="image" src="/img/default3.jpg"></img>
+<div class="title-content twemoji">
+	<h3><a class="title" href=http://mzee1000.io/posts/first/>First - Move to hugo</a></h3>
+	<div class="intro twemoji">This is my first blog on new setup</div>
+</div>
+<div class="utility-info">
+	<ul class="utility-list">
+		
+			<div><i class="comment icon"></i><span class="disqus-comment-count" data-disqus-identifier="e1548a0cedb778486bfba315e5d18524"></span></div>
+		
+		<div><span><i class="calendar icon"></i>Sep 25, 2018</span></div>
+		<div><span><i class="clock icon"></i>1 min read</span></div>
+	</ul>
+</div>
+<div class="color-overlay"></div>
+</article>
+
+			
+		</div>
+	</div>
+</div>
+
+			</div>
+			<div class="back">
+<nav class="ui top secondary menu bar">
+	<div class="item">
+		<i class="inverted big link bullseye icon dream-flip-toggle" title="About Me"></i>
+	</div>
+
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+	
+		
+		
+		<div class="item">
+			<a href="https://github.com/mohammedzee1000" target="	_blank">
+				<i id="ico" class="inverted big link github icon" title="GitHub"></i>
+			</a>
+		</div>
+		
+	
+		
+		
+		<div class="item">
+			<a href="mailto:mohammed.zee1000@gmail.com" target="	_blank">
+				<i id="ico" class="inverted big link mail icon" title="Email"></i>
+			</a>
+		</div>
+		
+	
+		
+		
+		<div class="item">
+			<a href="https://twitter.com/zee_10000" target="	_blank">
+				<i id="ico" class="inverted big link twitter icon" title="Twitter"></i>
+			</a>
+		</div>
+		
+	
+		
+		
+		<div class="item">
+			<a href="https://youtube.com/user/mohammed.zee1000" target="	_blank">
+				<i id="ico" class="inverted big link youtube play icon" title="YouTube"></i>
+			</a>
+		</div>
+		
+	
+		
+		
+		<div class="item">
+			<a href="https://medium.com/@mohammedzeeshanahmed" target="	_blank">
+				<i id="ico" class="inverted big link medium icon" title="Medium"></i>
+			</a>
+		</div>
+		
+	
+		
+		
+		<div class="item">
+			<a href="https://www.linkedin.com/in/mohammedzee1000" target="	_blank">
+				<i id="ico" class="inverted big link linkedin icon" title="LinkedIn"></i>
+			</a>
+		</div>
+		
+	
+		
+		
+		<div class="item">
+			<a href="https://www.stackoverflow.com/users/6257518/mohammed-zeeshan" target="	_blank">
+				<i id="ico" class="inverted big link stack overflow icon" title="Stack Overflow"></i>
+			</a>
+		</div>
+		
+	
+		
+		
+	
+		
+		
+	
+
+	
+	<div class="item right">
+		<a href="/posts/index.xml">
+			<i class="inverted big link rss icon" title="RSS Feed"></i>
+		</a>
+	</div>
+	
+</nav>
+
+<div class="ui centered grid about">
+	<div class="sixteen wide mobile fifteen wide tablet fifteen wide computer column about">
+		<section class="ui stacked segments">
+			<div class="ui inverted segment">
+				<article class="twemoji"><h1>So, Who Am I?</h1>
+
+<hr />
+
+<p><br></p>
+
+<h2 id="geek-code-non-geeks-just-paste-below-code-here-http-www-joereiss-net-geek-ungeek-html">Geek Code [Non Geeks - Just paste below code <a href="http://www.joereiss.net/geek/ungeek.html">here</a>]:</h2>
+
+<pre><code>-----BEGIN GEEK CODE BLOCK-----
+Version: 3.1
+GC/CS/E/IT/L/M/S/O/U d-(--) s: a C+++$ U+++ P++@ L+++$
+E@ W+++$ N++ o+++ K--? w++++ O M+ !V PS+ PE Y++ PGP++
+t+ 5+ !X R+ tv b+++ DI++ D+ G+ e++ h-- r+++ y+++(+)
+------END GEEK CODE BLOCK------
+</code></pre>
+
+<p>Hi, I am Mohammed Zeeshan Ahmed and  I am a technologist, engineer, linux lover and free and open source software enthusiast.</p>
+
+<p>I fell in love with linux at a very young age (when I was in 4th standard actually when I wrote my first Hello world program in C on a Unix based computer. I transitioned Unix –&gt; Linux soon after though exactly how soon, my memory fails me), though I got introduced to technology much earlier though 8-bit gaming consoles and my first Pentium 3 based computer running Windows 95.</p>
+
+<p>I have been an avid linux user ever since, with my favorite distributions being Fedora, Arch, openSUSE, CentOS, Ubuntu, Linux Mint and Blackbox.</p>
+
+<p>When I am not riding my keyboard, I enjoy travelling, am an avid reader and love to establish genuine lasting relationships with people :). I am also a computer gamer.</p>
+
+<p>Of course, as a gamer I do have good hand with the Windows Operating System as well.</p>
+
+<p>I love programming, and yes proudly say that I am a hacker, in the true sense of the word.</p>
+
+<h2 id="where-i-hangout">Where I hangout</h2>
+
+<h3 id="irc">IRC</h3>
+
+<h4 id="freenode">Freenode</h4>
+
+<p>Nick: mzee1000</p>
+
+<h4 id="channels">Channels :</h4>
+
+<ul>
+<li>#atomic</li>
+<li>#fedora-cloud</li>
+<li>#fedora-devel</li>
+<li>#openstack</li>
+<li>#centos</li>
+<li>#centos-devel</li>
+<li>#fedora-india</li>
+<li>#dgplug</li>
+<li>#coreos</li>
+</ul>
+
+<h3 id="slack">Slack</h3>
+
+<h4 id="kubernetes">Kubernetes</h4>
+
+<p>Nick: @mzee1000</p>
+
+<h4 id="channels-1">Channels</h4>
+
+<ul>
+<li>kubernetes-users</li>
+<li>kubernetes-dev</li>
+<li>sig-release</li>
+<li>sig-network</li>
+<li>sig-storage</li>
+<li>sig-auth</li>
+<li>sig-instrumentation</li>
+<li>sig-docs</li>
+<li>sig-contribex</li>
+<li>sig-scalability</li>
+<li>sig-apps</li>
+</ul>
+
+<p>Public GPG Key : <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x147A8569AFC5E9ED">https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x147A8569AFC5E9ED</a></p>
+
+<iframe src="https://ghbtns.com/github-btn.html?user=mohammedzee1000&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="280px" height="30px"></iframe>
+</article>
+			</div>
+		</section>
+	</div>
+</div>
+</div>
+		</div>
+	</div><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/site.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script><script src="https://twemoji.maxcdn.com/2/twemoji.min.js?2.6"></script>
+
+<script id="dsq-count-scr" src="//mzee1000-io.disqus.com/count.js" async></script>
+
+
+<script>
+	(function () {
+	  console.log("Twemoji up and making stuff colourful!");
+	  for (var b = document.getElementsByClassName("twemoji"), a = 0; a < b.length; a++) {
+		twemoji.parse(b[a]);
+	  }
+	})();
+</script>
+
+</body>
+</html>
