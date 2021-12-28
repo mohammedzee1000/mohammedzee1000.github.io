@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mohammed Zeeshan Ahmed&#39;s Blog</title>
@@ -6,13 +6,9 @@
     <description>Recent content in Categories on Mohammed Zeeshan Ahmed&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Oct 2018 20:21:10 +0530</lastBuildDate>
-    
-	<atom:link href="http://mzee1000.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 02 Oct 2018 20:21:10 +0530</lastBuildDate><atom:link href="http://mzee1000.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blogging</title>
+      <title>blogging</title>
       <link>http://mzee1000.io/categories/blogging/</link>
       <pubDate>Tue, 02 Oct 2018 20:21:10 +0530</pubDate>
       
@@ -21,7 +17,7 @@
     </item>
     
     <item>
-      <title>Containers</title>
+      <title>containers</title>
       <link>http://mzee1000.io/categories/containers/</link>
       <pubDate>Tue, 02 Oct 2018 20:21:10 +0530</pubDate>
       
@@ -30,7 +26,7 @@
     </item>
     
     <item>
-      <title>Engineering</title>
+      <title>engineering</title>
       <link>http://mzee1000.io/categories/engineering/</link>
       <pubDate>Tue, 02 Oct 2018 20:21:10 +0530</pubDate>
       
@@ -39,7 +35,7 @@
     </item>
     
     <item>
-      <title>Opensource</title>
+      <title>opensource</title>
       <link>http://mzee1000.io/categories/opensource/</link>
       <pubDate>Tue, 02 Oct 2018 20:21:10 +0530</pubDate>
       
