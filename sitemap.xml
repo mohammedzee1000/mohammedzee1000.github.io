@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://mzee1000.io/posts/01-26-2022_6_years/</loc>
+    <lastmod>2022-01-26T14:06:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/</loc>
+    <lastmod>2022-01-26T14:06:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mzee1000.io/posts/</loc>
+    <lastmod>2022-01-26T14:06:17+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mzee1000.io/about/</loc>
     <lastmod>2021-12-22T17:35:17+05:30</lastmod>
   </url>
@@ -58,17 +73,7 @@
   </url>
   
   <url>
-    <loc>http://mzee1000.io/</loc>
-    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>http://mzee1000.io/categories/opensource/</loc>
-    <lastmod>2018-10-02T20:21:10+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://mzee1000.io/posts/</loc>
     <lastmod>2018-10-02T20:21:10+05:30</lastmod>
   </url>
   
