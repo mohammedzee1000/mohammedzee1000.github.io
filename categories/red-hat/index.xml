@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Red Hat on Mohammed Zeeshan Ahmed&#39;s Blog</title>
+    <link>http://mzee1000.io/categories/red-hat/</link>
+    <description>Recent content in Red Hat on Mohammed Zeeshan Ahmed&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Jan 2022 14:06:17 +0530</lastBuildDate><atom:link href="http://mzee1000.io/categories/red-hat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6 Years @ Red Hat</title>
+      <link>http://mzee1000.io/posts/01-26-2022_6_years/</link>
+      <pubDate>Wed, 26 Jan 2022 14:06:17 +0530</pubDate>
+      
+      <guid>http://mzee1000.io/posts/01-26-2022_6_years/</guid>
+      <description>I still cant believe that I just recently completed my 6th year at Red Hat as a Software Engineer.
+It was on 18th January 2016, 6 years ago, that I joined Red Hat as a software engineer, after a short 5 month stint as a system adminstrator. During this period, I learnt a lot of stuff from people all around me, both from the Kubernetes Community, as well as people at Red hat.</description>
+    </item>
+    
+  </channel>
+</rss>
